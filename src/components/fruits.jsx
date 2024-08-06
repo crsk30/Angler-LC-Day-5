@@ -1,14 +1,11 @@
 import React from "react";
+import "./style.css";
 
 const items = ["Apple", "Banana", "Cherry"];
-const style = {
-  color: "blue",
-  backgroundColor: "lightgrey",
-};
 const listItems = items.map((item) => <li key={item}>{item}</li>);
 
 function Fruit() {
-  return <ul style={style}>{listItems}</ul>;
+  return <ul className="Head">{listItems}</ul>;
 }
 
 export default Fruit;

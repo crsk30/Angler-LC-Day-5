@@ -1,0 +1,12 @@
+.Head {
+  color: "blue";
+  background-color: "lightgrey";
+}
+
+body {
+  background-color: aqua;
+}
+
+.danger {
+  color: red;
+}

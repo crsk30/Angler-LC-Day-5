@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./style.css";
 
 function Form() {
   const [name, setName] = useState("");
@@ -25,7 +26,7 @@ function Form() {
         />
       </label>
       <button type="submit">Submit</button>
-      {error && <p>{error}</p>}
+      {error && <p className="danger">{error}</p>}
     </form>
   );
 }
